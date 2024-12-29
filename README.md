@@ -7,7 +7,7 @@ Official implementation of the paper ''Efficient Adversarial Attack Strategy Aga
     git clone https://github.com/open-mmlab/mmdetection3d.git
     git checkout -v v0.17.2
     ```
-    Install the necessary dependencies according to [Installation](https://mmdetection3d.readthedocs.io/en/latest/get_started.html))
+    Install the necessary dependencies according to [Installation](https://mmdetection3d.readthedocs.io/en/latest/get_started.html)
 ## Files in the folder
 - `IoU-S-Attack/`
   - `config/`: The config we changed for centrepoint..
