@@ -1,4 +1,4 @@
-# IoU-S Attack
+#🌐 IoU-S Attack
 Official implementation of the paper ''Efficient Adversarial Attack Strategy Against 3D Object Detection in Autonomous Driving Systems''.(Note: This is a reference to the implementation of IoU-S Attack on mmdetection3d.)
 ## Installation
 
@@ -8,7 +8,7 @@ Official implementation of the paper ''Efficient Adversarial Attack Strategy Aga
     git checkout -v v0.17.2
     ```
     Install the necessary dependencies according to [Installation](https://mmdetection3d.readthedocs.io/en/latest/get_started.html)
-## Files in the folder
+## 🌟 Files in the folder
 - `IoU-S-Attack/`
   - `config/`: The config we changed for centrepoint..
   - `mmdet3d/`
@@ -17,7 +17,7 @@ Official implementation of the paper ''Efficient Adversarial Attack Strategy Aga
   - `tools/`
     - `test_iou.py`: Running adversarial attacks.
     - `test_new_asr.py`: Showing evaluation metrics.
-## Some explanations
+## 💾 Some explanations
 1. Put the above files into the corresponding folder in mmdetection3d.
    
 2. For the problem that voxelisation is not differentiable, see our other paper solution [Bev-Robust](https://github.com/zzj403/BEV_Robust.git).
@@ -30,10 +30,22 @@ Official implementation of the paper ''Efficient Adversarial Attack Strategy Aga
 
 6. Although we do not provide a multi-card distributed run script, our code supports multi-card serial and can be run directly on multiple cards.
 
-## Explanation of key parameters
+## 📘 Explanation of key parameters
 1. --scattered_result_dir_adv：Store the results after adversarial attacks as a pkl file
 
 2. lidar_save_path(test_iou_api.py)：Store adversarial point clouds allowing for self-defined storage paths
 
+## 📝 Citation
 
+If this work is helpful for your research, please consider citing the following BibTeX entry.
+
+```
+@article{chen2024efficient,
+  title={Efficient Adversarial Attack Strategy Against 3D Object Detection in Autonomous Driving Systems},
+  author={Chen, Hai and Yan, Huanqian and Yang, Xiao and Su, Hang and Zhao, Shu and Qian, Fulan},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2024},
+  publisher={IEEE}
+}
+```
 
