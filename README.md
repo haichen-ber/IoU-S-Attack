@@ -1,4 +1,4 @@
-##🌐 IoU-S Attack
+## 🌐 IoU-S Attack
 Official implementation of the paper ''Efficient Adversarial Attack Strategy Against 3D Object Detection in Autonomous Driving Systems''.(Note: This is a reference to the implementation of IoU-S Attack on mmdetection3d.)
 ## Installation
 
@@ -34,6 +34,15 @@ Official implementation of the paper ''Efficient Adversarial Attack Strategy Aga
 1. --scattered_result_dir_adv：Store the results after adversarial attacks as a pkl file
 
 2. lidar_save_path(test_iou_api.py)：Store adversarial point clouds allowing for self-defined storage paths
+
+## 📚 Acknowledgement
+Many thanks to these excellent projects:
+- [TransFusion](https://github.com/XuyangBai/TransFusion)
+- [BEVFusion](https://github.com/mit-han-lab/bevfusion)
+- [MMDetection3D](https://github.com/open-mmlab/mmdetection3d)
+- [DeepInteraction](https://github.com/fudan-zvg/DeepInteraction)
+- [chamferdist](https://github.com/OpenDriveLab/ViDAR/tree/936dbf7e010189b68b83b4b61568cfd0fa23e655/third_lib/chamfer_dist/chamferdist)
+- [Bev-Robust](https://github.com/zzj403/BEV_Robust.git)
 
 ## 📝 Citation
 
