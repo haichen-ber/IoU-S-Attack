@@ -10,7 +10,7 @@ Official implementation of the paper ''Efficient Adversarial Attack Strategy Aga
     Install the necessary dependencies according to [Installation](https://mmdetection3d.readthedocs.io/en/latest/get_started.html)
 ## 🌟 Files in the folder
 - `IoU-S-Attack/`
-  - `config/`: The config we changed for centrepoint..
+  - `config/`: The config we changed for centrepoint.
   - `mmdet3d/`
     - `test_iou_api.py`: Implementation of IoU-S Attack.
     - `test_new_asr.py/`: Implementation of evaluation measures.
